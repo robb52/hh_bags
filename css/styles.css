@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Sans:400,700|Encode+Sans:400,700|Roboto:400,700&display=swap');
+
+root {
+  --clr-text: ;
+  --clr-primary: ;
+  --clr-primary-dark: ;
+  --clr-accent: ;
+  --clr-accent-dark: ;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: var();
+  color: var();  
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #eee;
+  background: #eee;
+  margin: 0;
+}
+
+header {
+  background: #444;
+  background-image: url(../images/mandala.jpg);
+  background-size: 75px 75px;
+  padding: 4px 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.logo {
+  font-family: 'DM Sans', sans-serif;
+  text-align: center;
+  padding: .75em 0;
+}
+
+.logo a {
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: #000;
+  background: #fff;
+  opacity: .85;
+}
+
+
+.hero {
+  background-color: #444;
+  color: white;
+  text-align: center;
+  padding: 1vh 1em;
+}
+
+.products {
+  padding: 1em;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1em;
+} 
+
+.product-title {
+  text-align: center;
+  color: #00C896;
+  grid-column: 1 / -1;
+}
+
+.product-card {
+  background: #fff;
+  color: #000;
+  padding: 1em;
+  border-radius: 1em;
+  overflow: hidden;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
+  margin-bottom: 2em;
+}
+
+.product-card-title {
+  font-size: 1.5rem;
+  color: #000;
+}
+
+footer {
+  text-align: center;
+  background: #000;
+  padding: 1em;
+  margin: 8em 0 0 0;
+  
+}
+
+
