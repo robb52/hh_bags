@@ -52,12 +52,22 @@ img {
   opacity: .85;
 }
 
-
 .hero {
   background-color: #444;
   color: white;
   text-align: center;
   padding: 1vh 1em;
+}
+
+.btn.back {
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: 'DM Sans', sans-serif;
+  color: #000;
+}
+
+.btn.back:hover {
+  color: #666;
 }
 
 .products {

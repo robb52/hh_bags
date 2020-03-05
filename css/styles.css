@@ -16,14 +16,13 @@ root {
 
 html {
   box-sizing: border-box;
-  font-family: var();
   color: var();  
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   color: #eee;
-  background: #eee;
+  background: #e6e6e6;
   margin: 0;
 }
 
@@ -54,7 +53,7 @@ img {
 
 
 .hero {
-  background-color: #444;
+  background-color: #4d4d4d;
   color: white;
   text-align: center;
   padding: 1vh 1em;
