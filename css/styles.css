@@ -29,8 +29,8 @@ body {
 header {
   background: #444;
   background-image: url(../images/mandala.jpg);
-  background-size: 75px 75px;
-  padding: 4px 0;
+  background-size: 55px 55px;
+  padding: 6px 0;
 }
 
 img {
@@ -40,7 +40,7 @@ img {
 .logo {
   font-family: 'DM Sans', sans-serif;
   text-align: center;
-  padding: .75em 0;
+  padding: .05em 0;
 }
 
 .logo a {
