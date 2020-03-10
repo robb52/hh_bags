@@ -98,7 +98,7 @@ i.fas.fa-hand-point-left:hover {
   margin-bottom: 2em;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
   .product-card:hover {
     position:relative;
     top:-25px;
