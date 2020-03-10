@@ -13,7 +13,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   color: #eee;
-  background: #e6e6e6;
+  background: #ebfafa;
   line-height: 1.2;
 }
 
@@ -43,10 +43,11 @@ img {
   opacity: .85;
 }
 
-
 .hero {
-  background-color: #000;
-  color: white;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  background: #33cccc;
+  color: #000;
   text-align: center;
   padding: 1vh 1em;
 }
@@ -56,6 +57,8 @@ img {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-gap: 1em;
+  justify-content: center;
+  align-items: center;
 } 
 
 .product-title {
@@ -67,10 +70,10 @@ img {
 .product-card {
   background: #fff;
   color: #000;
-  padding: 1em;
+  padding: .5em;
   border-radius: 1em;
   overflow: hidden;
-  box-shadow: 0 0 1em rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.7);
   margin-bottom: 2em;
 }
 
